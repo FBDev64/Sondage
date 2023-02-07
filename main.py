@@ -204,10 +204,14 @@ Questions["answer 4"] = 18
 print(Questions)
 
 # Open a document.txt
-file_survey = open("survey_data_python.txt", "r")
-file_survey.write(User, Questions)
-file_survey.close()
+name = 'survey_data.txt'      
+fichier = open(name,'w')   
+fichier.write(User)
+fichier.write(Questions)
 
-# End of the code
+fichier.close()
+
+
+# End of the codes
 print("Before the program ends, I recommend you to use my other programs and to play the game Stanley Parable. ")
 quit()
