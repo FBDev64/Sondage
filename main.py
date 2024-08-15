@@ -211,7 +211,4 @@ fichier.write(Questions)
 
 fichier.close()
 
-
-# End of the codes
-print("Before the program ends, I recommend you to use my other programs and to play the game Stanley Parable. ")
 quit()
